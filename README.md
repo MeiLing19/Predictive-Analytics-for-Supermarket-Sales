@@ -9,11 +9,21 @@ Sales prediction involves forecasting future sales volumes based on historical d
 This predictive analytics process plays a crucial role in optimizing inventory management, staffing levels, and revenue forecasting.
 
 ### Why it is need to be solved?
-1. **Inventory Management**: Maintaining the right balance of inventory is essential to meet customer demand while minimizing carrying costs and the risk of stockouts. Accurate sales predictions help supermarkets anticipate demand for different products and adjust their inventory levels accordingly.
-2. **Staffing Optimization**: Proper staffing levels are essential for ensuring excellent customer service and operational efficiency. By accurately forecasting sales, supermarkets can schedule their staff appropriately to meet customer demand during peak hours while avoiding overstaffing during slower periods.
-3. **Revenue Forecasting**: Reliable sales forecasts enable supermarkets to estimate future revenue streams accurately. This information is vital for budgeting, financial planning, and setting realistic business goals. It also helps in identifying opportunities for revenue growth and expansion.
-4. **Customer Satisfaction**: Predictive analytics in sales forecasting contributes to enhancing customer satisfaction by ensuring that the right products are available at the right time. Satisfied customers are more likely to return, leading to increased loyalty and higher retention rates.
-5. **Profitability**: Ultimately, accurate sales predictions translate into higher profitability for supermarkets. By optimizing inventory levels, reducing carrying costs, and maximizing revenue potential, supermarkets can improve their bottom line and remain competitive in the market.
+1. **Inventory Management**
+
+   Maintaining the right balance of inventory is essential to meet customer demand while minimizing carrying costs and the risk of stockouts. Accurate sales predictions help supermarkets anticipate demand for different products and adjust their inventory levels accordingly.
+2. **Staffing Optimization**
+
+   Proper staffing levels are essential for ensuring excellent customer service and operational efficiency. By accurately forecasting sales, supermarkets can schedule their staff appropriately to meet customer demand during peak hours while avoiding overstaffing during slower periods.
+3. **Revenue Forecasting**
+
+   Reliable sales forecasts enable supermarkets to estimate future revenue streams accurately. This information is vital for budgeting, financial planning, and setting realistic business goals. It also helps in identifying opportunities for revenue growth and expansion.
+4. **Customer Satisfaction**
+  
+   Predictive analytics in sales forecasting contributes to enhancing customer satisfaction by ensuring that the right products are available at the right time. Satisfied customers are more likely to return, leading to increased loyalty and higher retention rates.
+5. **Profitability**
+
+   Ultimately, accurate sales predictions translate into higher profitability for supermarkets. By optimizing inventory levels, reducing carrying costs, and maximizing revenue potential, supermarkets can improve their bottom line and remain competitive in the market.
 
 ## Business Understanding
 ### Problem Statements
@@ -67,23 +77,41 @@ print(missing_values)
 - The variable missing_values contains the sum of missing values for each column. Printing missing_values provides a summary of the number of missing values in each column of the dataset
 
 **Output** :
+
 Invoice ID                 0
+
 Branch                     0
+
 City                       0
+
 Customer type              0
+
 Gender                     0
+
 Product line               0
+
 Unit price                 0
+
 Quantity                   0
+
 Tax 5%                     0
+
 Total                      0
+
 Date                       0
+
 Time                       0
+
 Payment                    0
+
 cogs                       0
+
 gross margin percentage    0
+
 gross income               0
+
 Rating                     0
+
 dtype: int64
 
 - Based on the output, there are no null or NaN values in the dataset as the number is zero for each column.
@@ -102,6 +130,7 @@ The data is clean and ready to be used for further analysis.
   
 **Parameters Used**
   fit_intercept (default=True)
+  
 - Specifies whether to calculate the intercept (b) in the linear regression model. If set False, the regression line will pass through the point (0,0).
   normalize (default=False)
 
@@ -164,6 +193,7 @@ In this project, the evaluation metrics used are Mean Squared Error (MSE), Mean 
    ![r^2](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/R2Formulas.png)
    
    R-squared provides the percentage of variability in the dependent variable that can be explained by the model.
+   
    The closer the R-squared value is to 1, the better the model.
    
 In evaluating the project results, we will review the values of MSE, MAE, and R^2 to understand how well our model predicts supermarket sales. Interpreting these values will provide insights into the model's performance in estimating sales.
@@ -185,14 +215,18 @@ In evaluating the project results, we will review the values of MSE, MAE, and R^
 - Mean Squared Error (MSE): 2.34
 
   Larger than Linear Regression, indicating more variability in the predicted data
+  
 - Mean Absolute Error (MAE): 0.92
 
   Larger than Linear Regression, indicating slightly lower accuracy in predicting the data
+  
 - R-squared Score (R^2):  0.99996
 
   Very close to 1.0, indicating excellent model fit to the data, although slightly lower than Linear Regression
 
 ## Conclusion
 Based on this evaluation, the Linear Regression model seems more suitable for predicting Supermarket Sales dataset due to its slightly better performance. 
-Although the Decision Tree Regressor provides excellent results, Linear Regression demonstrates higher accuracy with lower error values and a perfect R-squared score. 
+
+Although the Decision Tree Regressor provides excellent results, Linear Regression demonstrates higher accuracy with lower error values and a perfect R-squared score.
+
 Therefore, the Linear Regression model can be considered the primary choice for predicting supermarket sales.
