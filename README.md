@@ -28,13 +28,19 @@ This predictive analytics process plays a crucial role in optimizing inventory m
 
 ## Data Understanding
 ### Dataset
+I got the dataset from Kaggle here is the link
+
 [Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
-Supermarket sales data including features like unit price, quantity, tax, branch, city, customer type, etc.
+
+Supermarket_Sales.csv including features like unit price, quantity, tax, branch, city, customer type, etc.
 ### Number of records
+
 1000 rows × 17 columns
 ### Data Condition
+
 Clean, no missing values.
 ### Variabel
+
 The variables in the Supermarket Sales dataset are as follows :
 - Unit price: the unit price of the product
 - Quantity: the number of products purchased
@@ -52,6 +58,7 @@ The variables in the Supermarket Sales dataset are as follows :
 - Payment_Cash, Payment_Credit card, Payment_Ewallet: payment method
 
 ## Data Preparation
+
 At this stage, the raw data obtained from the source will be processed so that it becomes ready to be used in modeling.
 ### Identifying and Displaying the Number of Missing Values
 
@@ -99,6 +106,7 @@ The data is clean and ready to be used for further analysis.
   fit_intercept (default=True)
 - Specifies whether to calculate the intercept (b) in the linear regression model. If set False, the regression line will pass through the point (0,0).
   normalize (default=False)
+
   Specifies whether the features will be normalized before regression. Normalization is done by subtracting the mean and dividing by the standard deviation of each feature.
   
 **Advantages**
@@ -160,18 +168,25 @@ In evaluating the project results, we will review the values of MSE, MAE, and R^
 ## Result
 **Linear Regression**
 - Mean Squared Error (MSE): 2.56 × 10^-26
+
   Very close to zero, indicating the model's near-perfect prediction capability.
 - Mean Absolute Error (MAE): 1.28×10^-13
+
   Very small, indicating high precision in predicting the data
 - R-squared Score (R^2): 1.0
-  1.0, indicating the model's ability to explain all the variability in the data
+  1.0
+
+  indicating the model's ability to explain all the variability in the data
 
 **Decision Trees Regressions**
 - Mean Squared Error (MSE): 2.34
+
   Larger than Linear Regression, indicating more variability in the predicted data
 - Mean Absolute Error (MAE): 0.92
+
   Larger than Linear Regression, indicating slightly lower accuracy in predicting the data
 - R-squared Score (R^2):  0.99996
+
   Very close to 1.0, indicating excellent model fit to the data, although slightly lower than Linear Regression
 
 ## Conclusion
