@@ -1,5 +1,5 @@
 # Predictive-Analytics-for-Supermarket-Sales
-(https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Inventory.jpg)
+![inventory](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Inventory.jpg)
 
 ## Project Domain
 This project focuses on analyzing supermarket sales. A deep understanding of sales patterns in supermarkets is crucial for management to optimize marketing strategies, inventory management, and customer experience.
@@ -135,17 +135,17 @@ In this project, the evaluation metrics used are Mean Squared Error (MSE), Mean 
 1. **Mean Squared Error (MSE)**
    MSE measures the average of the squares of the differences between the predicted values and the actual values.
    The formula for MSE is :
-   (https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeepchecks.com%2Fglossary%2Fmean-square-error-mse%2F&psig=AOvVaw0nGJsWozGqw3dR3d1qnj8b&ust=1710916335692000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLjMrJXa_4QDFQAAAAAdAAAAABAE)
+   ![mse](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeepchecks.com%2Fglossary%2Fmean-square-error-mse%2F&psig=AOvVaw0nGJsWozGqw3dR3d1qnj8b&ust=1710916335692000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCLjMrJXa_4QDFQAAAAAdAAAAABAE)
    MSE provides information about how close the average prediction is to the actual value. A lower MSE value indicates better model performance.
 2. **Mean Absolute Error (MAE)**
    MAE measures the average of the absolute values of the differences between the predicted values and the actual values.
    The formula for MAE is:
-   (https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Ftrusted-data-science-haleon%2Fmape-vs-mae-which-metric-is-better-68dd559cbfb1&psig=AOvVaw2e-buvZ3PalC5yDVaqSDm4&ust=1710916507739000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiBr-fa_4QDFQAAAAAdAAAAABAE)
+   ![mae](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Ftrusted-data-science-haleon%2Fmape-vs-mae-which-metric-is-better-68dd559cbfb1&psig=AOvVaw2e-buvZ3PalC5yDVaqSDm4&ust=1710916507739000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKiBr-fa_4QDFQAAAAAdAAAAABAE)
    MAE also provides information about how close the average prediction is to the actual value, but it is not affected by the square of the differences, making it more tolerant to outliers.
 3. **R-squared Score (R^2)**
    R-squared measures how well the variability in the data is explained by the model. The R-squared value ranges from 0 to 1, where 1 indicates that the model perfectly fits the data.
    The formula for R-squared is:
-   (https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40iliyafaramarzi1384%2Fwhat-is-r2-and-how-it-gets-negative-e927011d92ed&psig=AOvVaw2GxOXmLWFfra2mxj7knb78&ust=1710916587904000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJjr0I3b_4QDFQAAAAAdAAAAABAE)
+   ![r^2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40iliyafaramarzi1384%2Fwhat-is-r2-and-how-it-gets-negative-e927011d92ed&psig=AOvVaw2GxOXmLWFfra2mxj7knb78&ust=1710916587904000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJjr0I3b_4QDFQAAAAAdAAAAABAE)
    R-squared provides the percentage of variability in the dependent variable that can be explained by the model. The closer the R-squared value is to 1, the better the model.
    
 In evaluating the project results, we will review the values of MSE, MAE, and R^2 to understand how well our model predicts supermarket sales. Interpreting these values will provide insights into the model's performance in estimating sales.
