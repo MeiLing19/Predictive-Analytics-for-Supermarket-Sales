@@ -141,21 +141,26 @@ Setting the random_state value will ensure that the results are consistent each 
 ## Evaluation
 In this project, the evaluation metrics used are Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared Score (R^2).
 1. **Mean Squared Error (MSE)**
+   
    MSE measures the average of the squares of the differences between the predicted values and the actual values.
    The formula for MSE is :
    
    ![mse](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MSE.png)
    
    MSE provides information about how close the average prediction is to the actual value. A lower MSE value indicates better model performance.
-3. **Mean Absolute Error (MAE)**
+2. **Mean Absolute Error (MAE)**
+   
    MAE measures the average of the absolute values of the differences between the predicted values and the actual values.
+   
    The formula for MAE is:
    
    ![mae](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MAE.png)
    
    MAE also provides information about how close the average prediction is to the actual value, but it is not affected by the square of the differences, making it more tolerant to outliers.
 4. **R-squared Score (R^2)**
+   
    R-squared measures how well the variability in the data is explained by the model. The R-squared value ranges from 0 to 1, where 1 indicates that the model perfectly fits the data.
+   
    The formula for R-squared is:
    
    ![r^2](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/R2Formulas.png)
