@@ -26,7 +26,7 @@ Berdasarkan permasalahan dan tujuan yang ada, solusinya adalah sebagai berikut.
 
 ## Data Understanding
 ### Dataset
-Saya mendapatkan dataset dari Kaggle, ini tautannya [Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
+Dataset bersumber dari Kaggle, berikut merupakan tautannya [Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
 
 Supermarket_Sales.csv berisi data-data sebagai berikut.
 
@@ -44,13 +44,10 @@ Supermarket_Sales.csv berisi data-data sebagai berikut.
 | 998| 347-56-2442|    A   |  Yangon  |     Normal    |  Male  | Home and lifestyle   |   65.82    |     1    |  3.2910|  69.1110  |  2/22/2019 | 15:33  |   Cash      |  65.82  |        4.761905         |     3.2910   |   4.1  |
 | 999| 849-09-3807|    A   |  Yangon  |     Member    | Female | Fashion accessories  |   88.34    |     7    | 30.9190| 649.2990  |  2/18/2019 | 13:28  |   Cash      |  618.38 |	  4.761905         |    30.9190	  |   6.6  |
 
-
-### Jumlah catatan
-
-1000 baris × 17 kolom
+Data terdiri dari 1000 baris × 17 kolom
 ### Kondisi Data
 
-Bersih, tidak ada nilai yang hilang.
+Bersih, tidak ada nilai yang hilang. Hal ini dibuktikan dengan *output* dari pembahasan selanjutnya yaitu bagian persiapan data.
 ### Variabel
 
 Variabel dalam set data Penjualan *Supermarket* adalah sebagai berikut:
@@ -69,9 +66,34 @@ Variabel dalam set data Penjualan *Supermarket* adalah sebagai berikut:
 - Product line_Electronic accessories, Product line_Fashion accessories, Product line_Food and beverages, Product line_Health and beauty, Product line_Home and lifestyle, Product line_Sports and travel: jenis produk.
 - Payment_Cash, Payment_Credit card, Payment_Ewallet: metode pembayaran
 
-## Persiapan Data
+### Jenis Data
+Jenis data yang dimaksudkan disini adalah *numerical features* dan *categorical features*. Cara menentukannya dengan kode sebagai berikut.
+numerical_data = data.select_dtypes(include=['int'])
+numeric = data.select_dtypes(include=['float'])
+
+categorical_data = data.select_dtypes(include=['object'])
+
+**Numerical Features**
+*Numerical Features* adalah fitur dalam dataset yang memiliki nilai berupa angka atau numerik. Fitur-fitur ini dapat diperlakukan sebagai variabel kontinu atau diskrit tergantung pada sifatnya.
+Seperti kode diatas yang termasuk *numerical features* adalah data yang tipe datanya berupa angka(dalam dataset ini hanya ada integer dan float).
+Berikut merupakan *numerical features*.
+- Int(bilangan bulat)
+  *Quantity, Month*
+  
+- Float (bilangan bernilai desimal)
+  *Unit price, Tax 5%, Total, cogs, gross margin percentage, gross income, Rating*
+
+**Categorical Features:**
+Categorical features adalah fitur dalam dataset yang memiliki nilai berupa kategori atau label diskrit. Fitur-fitur ini tidak memiliki urutan atau hubungan ordinal di antara kategori-kategorinya.
+Seperti kode diatas yang termasuk *categorical features* adalah data '*object*' yang tipe datanya berupa teks atau string.
+Berikut merupakan *categorical features*.
+- Object(teks atau string)
+  *Invoice ID, Branch, City, Customer type, Gender, Product line, Time, Payment*
+
+## Data Preparation
 
 Pada tahap ini, data mentah yang diperoleh dari sumber akan diolah sehingga siap untuk digunakan dalam pemodelan.
+
 ### Mengidentifikasi dan Menampilkan Jumlah Nilai yang Hilang
 
 missing_values = data.isnull().sum()
@@ -118,7 +140,7 @@ Rating                     0
 
 dtype: int64
 
-- Berdasarkan output, tidak ada nilai null atau NaN dalam dataset karena jumlahnya nol untuk setiap kolom.
+- Berdasarkan *output*, tidak ada nilai *null* atau NaN dalam dataset karena jumlahnya nol untuk setiap kolom.
 Oleh karena itu, tidak ada langkah tambahan yang diperlukan untuk menangani nilai yang hilang dalam tahap pembersihan data.
 Data sudah bersih dan siap digunakan untuk analisis lebih lanjut.
 
