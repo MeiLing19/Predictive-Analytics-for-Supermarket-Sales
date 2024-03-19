@@ -66,6 +66,14 @@ Variabel dalam set data Penjualan *Supermarket* adalah sebagai berikut:
 - Product line_Electronic accessories, Product line_Fashion accessories, Product line_Food and beverages, Product line_Health and beauty, Product line_Home and lifestyle, Product line_Sports and travel: jenis produk.
 - Payment_Cash, Payment_Credit card, Payment_Ewallet: metode pembayaran
 
+## Korelasi antar Variabel
+Korelasi antar variabel digunakan untuk memahami seberapa kuat hubungan atau hubungan linier antara dua variabel dalam sebuah dataset. 
+
+Dalam konteks analisis data, korelasi memberikan informasi tentang arah dan kekuatan hubungan antara variabel-variabel tersebut.
+![korelasi](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/Korelasi%20antar%20Variabel.png)
+Catatan :
+Warna yang lebih gelap menunjukkan korelasi yang lebih tinggi, sementara warna yang lebih terang menunjukkan korelasi yang lebih rendah atau bahkan tidak ada korelasi.
+
 ### Jenis Data
 Jenis data yang dimaksudkan disini adalah *numerical features* dan *categorical features*. Cara menentukannya dengan kode sebagai berikut.
 numerical_data = data.select_dtypes(include=['int'])
