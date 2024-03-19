@@ -1,4 +1,4 @@
-# Predictive-Analytics-for-Supermarket-Sales
+# Predictive-Analytics-for-Supermarket-Sales   - Lanyta Setyani Gunawan
 ![inventory](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/Inventory.jpg)
 
 ## Project Domain
