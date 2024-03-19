@@ -135,18 +135,25 @@ In this project, the evaluation metrics used are Mean Squared Error (MSE), Mean 
 1. **Mean Squared Error (MSE)**
    MSE measures the average of the squares of the differences between the predicted values and the actual values.
    The formula for MSE is :
+   
    ![mse](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MSE.png)
+   
    MSE provides information about how close the average prediction is to the actual value. A lower MSE value indicates better model performance.
-2. **Mean Absolute Error (MAE)**
+3. **Mean Absolute Error (MAE)**
    MAE measures the average of the absolute values of the differences between the predicted values and the actual values.
    The formula for MAE is:
+   
    ![mae](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MAE.png)
+   
    MAE also provides information about how close the average prediction is to the actual value, but it is not affected by the square of the differences, making it more tolerant to outliers.
-3. **R-squared Score (R^2)**
+4. **R-squared Score (R^2)**
    R-squared measures how well the variability in the data is explained by the model. The R-squared value ranges from 0 to 1, where 1 indicates that the model perfectly fits the data.
    The formula for R-squared is:
+   
    ![r^2](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/R2Formulas.png)
-   R-squared provides the percentage of variability in the dependent variable that can be explained by the model. The closer the R-squared value is to 1, the better the model.
+   
+   R-squared provides the percentage of variability in the dependent variable that can be explained by the model.
+   The closer the R-squared value is to 1, the better the model.
    
 In evaluating the project results, we will review the values of MSE, MAE, and R^2 to understand how well our model predicts supermarket sales. Interpreting these values will provide insights into the model's performance in estimating sales.
 
