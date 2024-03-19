@@ -28,9 +28,7 @@ This predictive analytics process plays a crucial role in optimizing inventory m
 
 ## Data Understanding
 ### Dataset
-I got the dataset from Kaggle here is the link
-
-[Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
+I got the dataset from Kaggle here is the link [Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
 
 Supermarket_Sales.csv including features like unit price, quantity, tax, branch, city, customer type, etc.
 ### Number of records
