@@ -9,34 +9,22 @@ Prediksi penjualan melibatkan perkiraan volume penjualan di masa depan berdasark
 Proses analisis prediktif ini memainkan peran penting dalam mengoptimalkan manajemen inventaris, tingkat staf, dan perkiraan pendapatan.
 
 ### Mengapa masalah ini perlu dipecahkan?
-1. **Manajemen Persediaan**
+Prediksi penjualan di --supermarket-- memiliki dampak yang signifikan dalam beberapa aspek bisnis. Salah satunya adalah dalam manajemen persediaan, di mana menjaga keseimbangan inventaris yang tepat sangat penting untuk memenuhi permintaan pelanggan sambil meminimalkan biaya penyimpanan dan risiko kehabisan stok. Dengan prediksi penjualan yang akurat, --supermarket-- dapat mengantisipasi permintaan untuk berbagai produk dan menyesuaikan tingkat inventaris mereka secara efisien. Selain itu, prediksi penjualan yang akurat juga membantu dalam pengoptimalan jumlah staf, di mana --supermarket-- dapat menjadwalkan staf mereka dengan tepat untuk memenuhi permintaan pelanggan selama jam sibuk dan menghindari kelebihan staf selama periode yang lebih lambat. Informasi mengenai perkiraan pendapatan di masa depan juga sangat penting untuk penganggaran, perencanaan keuangan, dan menetapkan tujuan bisnis yang realistis. Analisis prediktif dalam peramalan penjualan juga berkontribusi pada kepuasan pelanggan dengan memastikan ketersediaan produk yang tepat pada waktu yang tepat. Pelanggan yang puas lebih cenderung untuk kembali, yang pada gilirannya meningkatkan loyalitas dan tingkat retensi pelanggan. Pada akhirnya, prediksi penjualan yang akurat akan berdampak positif pada profitabilitas --supermarket-- dengan mengoptimalkan tingkat persediaan, mengurangi biaya penyimpanan, dan memaksimalkan potensi pendapatan, sehingga menjadikan --supermarket-- lebih kompetitif di pasar.
 
-   Menjaga keseimbangan inventaris yang tepat sangat penting untuk memenuhi permintaan pelanggan sekaligus meminimalkan biaya penyimpanan dan risiko kehabisan stok. Prediksi penjualan yang akurat membantu supermarket mengantisipasi permintaan untuk produk yang berbeda dan menyesuaikan tingkat inventaris mereka.
-2. **Pengoptimalan Jumlah Staf**
-
-   Tingkat staf yang tepat sangat penting untuk memastikan layanan pelanggan yang sangat baik dan efisiensi operasional. Dengan memprediksi penjualan secara akurat, supermarket dapat menjadwalkan staf mereka dengan tepat untuk memenuhi permintaan pelanggan selama jam sibuk sambil menghindari kelebihan staf selama periode yang lebih lambat.
-3. **Peramalan Pendapatan**
-
-   Perkiraan penjualan yang dapat diandalkan memungkinkan supermarket untuk memperkirakan aliran pendapatan di masa depan secara akurat. Informasi ini sangat penting untuk penganggaran, perencanaan keuangan, dan menetapkan tujuan bisnis yang realistis. Hal ini juga membantu dalam mengidentifikasi peluang untuk pertumbuhan dan perluasan pendapatan.
-4. **Kepuasan Pelanggan**
-  
-   Analisis prediktif dalam peramalan penjualan berkontribusi dalam meningkatkan kepuasan pelanggan dengan memastikan bahwa produk yang tepat tersedia pada waktu yang tepat. Pelanggan yang puas lebih mungkin untuk kembali, yang mengarah pada peningkatan loyalitas dan tingkat retensi yang lebih tinggi.
-5. **Profitabilitas**
-
-   Pada akhirnya, prediksi penjualan yang akurat akan menghasilkan profitabilitas yang lebih tinggi bagi supermarket. Dengan mengoptimalkan tingkat persediaan, mengurangi biaya penyimpanan, dan memaksimalkan potensi pendapatan, supermarket dapat meningkatkan laba dan tetap kompetitif di pasar.
-
-## Pemahaman Bisnis
+## Business Understanding
 ### Pernyataan Masalah
-1. Perkiraan penjualan yang tidak akurat menyebabkan kelebihan atau kekurangan stok produk.
-2. Metode peramalan manual memakan waktu dan rentan terhadap kesalahan.
+Perkiraan penjualan yang tidak akurat dapat mengakibatkan kelebihan atau kekurangan stok produk di --supermarket--, menyebabkan kerugian finansial dan penurunan kepuasan pelanggan. 
+Metode prediksi yang manual yang saat ini umum digunakan cenderung memakan waktu dan rentan terhadap kesalahan, yang dapat mengakibatkan ketidakpastian dalam manajemen persediaan barang.
 ### Tujuan
-1. Mengembangkan model prediktif untuk meramalkan penjualan supermarket secara akurat.
-2. Mengurangi biaya persediaan dengan mengoptimalkan tingkat persediaan berdasarkan prediksi permintaan.
-### Pernyataan Solusi
-1. Menerapkan algoritma regresi linier dan Decision Trees Regression untuk memprediksi penjualan.
+Dengan masalah yang ada tersebut maka pihak --supermarket-- akan membuat analisis prediktif dengan tujuan sebagai berikut. 
+1. Mengembangkan model prediktif yang dapat memperkirakan penjualan supermarket secara akurat untuk mengatasi masalah ketidakpastian dalam manajemen persediaan.
+2. Mengurangi biaya persediaan dengan mengoptimalkan tingkat stok barang berdasarkan prediksi permintaan, sehingga meminimalkan kerugian akibat kelebihan atau kekurangan persediaan.
+### Solusi
+Berdasarkan permasalahan dan tujuan yang ada, solusinya adalah sebagai berikut.
+1. Menerapkan algoritma --Linear Regression-- dan --Decision Trees Regression-- untuk memprediksi penjualan.
 2. Menyempurnakan parameter model menggunakan penyetelan hiperparameter untuk meningkatkan akurasi.
 
-## Pemahaman Data
+## Data Understanding
 ### Dataset
 Saya mendapatkan dataset dari Kaggle, ini tautannya [Source](https://www.kaggle.com/code/mhmdkardosha/market-analysis/input)
 
