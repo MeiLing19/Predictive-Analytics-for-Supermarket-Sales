@@ -207,27 +207,16 @@ Dalam proyek ini, metrik evaluasi yang digunakan adalah Mean Squared Error (MSE)
 1. **Mean Squared Error (MSE)**
    
    MSE mengukur rata-rata kuadrat dari perbedaan antara nilai prediksi dan nilai aktual.
-   Rumus untuk MSE adalah :
-   
-   ![mse](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MSE.png)
    
    MSE memberikan informasi tentang seberapa dekat prediksi rata-rata dengan nilai aktual. Nilai MSE yang lebih rendah menunjukkan kinerja model yang lebih baik.
 2. **Rata-rata Kesalahan Mutlak (MAE)**
    
    MAE mengukur rata-rata nilai absolut dari perbedaan antara nilai prediksi dan nilai aktual.
    
-   Rumus untuk MAE adalah:
-   
-   ![mae](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/MAE.png)
-   
    MAE juga memberikan informasi tentang seberapa dekat prediksi rata-rata dengan nilai aktual, tetapi tidak terpengaruh oleh kuadrat perbedaan, sehingga lebih toleran terhadap pencilan.
 3. **R-squared Score (R^2)**
    
    R-squared mengukur seberapa baik variabilitas dalam data dijelaskan oleh model. Nilai R-squared berkisar antara 0 hingga 1, di mana 1 menunjukkan bahwa model sangat cocok dengan data.
-   
-   Rumus untuk R-kuadrat adalah:
-   
-   ![r^2](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/R2Formulas.png)
    
    R-squared memberikan persentase variabilitas dalam variabel dependen yang dapat dijelaskan oleh model.
    
@@ -237,14 +226,13 @@ Dalam mengevaluasi hasil proyek, kami akan meninjau nilai MSE, MAE, dan R^2 untu
 
 ## Hasil
 **Regresi Linier**
-- Mean Squared Error (MSE): 2.56 × 10^-26
+- Mean Squared Error (MSE): "2.56 × 10^-26"
 
   Sangat mendekati nol, mengindikasikan kemampuan prediksi model yang nyaris sempurna.
-- Mean Absolute Error (MAE): 1.28×10^-13
+- Mean Absolute Error (MAE): "1.28×10^-13"
 
   Sangat kecil, menunjukkan ketepatan yang tinggi dalam memprediksi data
 - R-squared Score (R^2): 1.0
-  1.0
 
   Menunjukkan kemampuan model untuk menjelaskan semua variabilitas dalam data
 
