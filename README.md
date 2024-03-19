@@ -33,7 +33,7 @@ Proses analisis prediktif ini memainkan peran penting dalam mengoptimalkan manaj
 1. Mengembangkan model prediktif untuk meramalkan penjualan supermarket secara akurat.
 2. Mengurangi biaya persediaan dengan mengoptimalkan tingkat persediaan berdasarkan prediksi permintaan.
 ### Pernyataan Solusi
-1. Menerapkan algoritma regresi linier dan regresi pohon keputusan untuk memprediksi penjualan.
+1. Menerapkan algoritma regresi linier dan Decision Trees Regression untuk memprediksi penjualan.
 2. Menyempurnakan parameter model menggunakan penyetelan hiperparameter untuk meningkatkan akurasi.
 
 ## Pemahaman Data
@@ -120,15 +120,15 @@ Data sudah bersih dan siap digunakan untuk analisis lebih lanjut.
 
 ## Pemodelan
 
-Regresi Linier ### Regresi Linier
-Tahapan Pemodelan ** ** Tahapan Pemodelan
+### Regresi Linier
+**Tahapan Pemodelan**
 - Membagi data menjadi fitur (X) dan target (y).
 - Membagi data menjadi data training dan data testing.
 - Membuat model Regresi Linier.
 - Melatih model menggunakan data latih.
 - Menguji model menggunakan data uji.
   
-Parameter yang digunakan ** Parameter yang digunakan**
+**Parameter yang digunakan**
   fit_intercept (default=True)
   
 - Menentukan apakah akan menghitung intersep (b) dalam model regresi linier. Jika disetel False, garis regresi akan melewati titik (0,0).
@@ -136,24 +136,25 @@ Parameter yang digunakan ** Parameter yang digunakan**
 
   Menentukan apakah fitur akan dinormalisasi sebelum regresi. Normalisasi dilakukan dengan mengurangi rata-rata dan membaginya dengan standar deviasi masing-masing fitur.
   
-**Keuntungan
+**Keuntungan**
 - Sederhana dan mudah diinterpretasikan.
 - Cocok untuk kasus-kasus di mana hubungan antara fitur dan target bersifat linier.
   
-**Kekurangan
+**Kekurangan**
 - Rentan terhadap asumsi linearitas dan independensi.
 - Tidak efektif dalam menangani hubungan non-linear antara fitur dan target.
 
-## Regresi Pohon Keputusan
-Tahapan Pemodelan ** Tahapan Pemodelan**
+## Decision Trees Regression
+**Tahapan Pemodelan**
 - Membagi data menjadi fitur (X) dan target (y).
 - Membagi data menjadi data latih dan data uji.
-- Membuat model Regresi Pohon Keputusan.
+- Membuat model Decision Trees Regression.
 - Melatih model menggunakan data latih.
 - Menguji model menggunakan data uji.
   
-Parameter yang digunakan ** Parameter yang digunakan**
+**Parameter yang digunakan**
   random_state = 42
+  
 - Parameter ini digunakan untuk menentukan seed yang digunakan dalam proses pengacakan pada algoritma.
 Mengatur nilai random_state akan memastikan bahwa hasilnya konsisten setiap kali kode dijalankan.
 
@@ -161,9 +162,9 @@ Mengatur nilai random_state akan memastikan bahwa hasilnya konsisten setiap kali
 - Dapat menangani hubungan non-linear antara fitur dan target.
 - Mudah dipahami dan diinterpretasikan.
   
-**Kekurangan
+**Kekurangan**
 - Rentan terhadap overfitting terutama jika tidak diatur dengan baik.
-- Tidak stabil, perubahan kecil pada data dapat menghasilkan pohon yang sangat berbeda.
+- Tidak stabil, perubahan kecil pada data dapat menghasilkan tree yang sangat berbeda.
 
 ## Evaluasi
 Dalam proyek ini, metrik evaluasi yang digunakan adalah Mean Squared Error (MSE), Mean Absolute Error (MAE), dan R-squared Score (R^2).
