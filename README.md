@@ -71,7 +71,9 @@ Korelasi antar variabel digunakan untuk memahami seberapa kuat hubungan atau hub
 
 Dalam konteks analisis data, korelasi memberikan informasi tentang arah dan kekuatan hubungan antara variabel-variabel tersebut.
 ![korelasi](https://github.com/MeiLing19/Predictive-Analytics-for-Supermarket-Sales/blob/main/Pict/Korelasi%20antar%20Variabel.png)
+
 Catatan :
+
 Warna yang lebih gelap menunjukkan korelasi yang lebih tinggi, sementara warna yang lebih terang menunjukkan korelasi yang lebih rendah atau bahkan tidak ada korelasi.
 
 ### Jenis Data
